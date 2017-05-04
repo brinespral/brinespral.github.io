@@ -1,0 +1,52 @@
+* {
+  background: transparent; !important
+  color: black;
+  font-family: serif;
+  font-size: 14pt;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:after {
+  content: " (" attr(href) ") ";
+}
+
+.print-link {
+  display: none;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 24pt;
+  text-align: center;
+}
+
+h2 {
+  letter-spacing: 1pt;
+  font-size: 20pt;
+  border-bottom: 3pt solid black;
+  margin-bottom: 0.4in;
+}
+
+h3 {
+  margin: 0;
+  font-size: 14pt;
+}
+
+ nav, img{
+  display: none;
+}
+
+section {
+  margin-bottom: 0.5in;
+}

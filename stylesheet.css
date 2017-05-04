@@ -62,8 +62,8 @@ img {
 
 #about img {
   position: absolute;
-  top: 50px;
-  right: 125px;
+  top: 20px;
+  right: 20px;
 }
 
 address {
@@ -111,9 +111,4 @@ float: left;
 
 #right-col {
 float: right;
-}
-
-
-#header {
-  padding-bottom: 0;
 }
